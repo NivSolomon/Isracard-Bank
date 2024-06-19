@@ -16,7 +16,7 @@
     "CardPicture": "cardImages/card2.png",
     "IsCardBlocked": false,
     "IsDigitalCard": false,
-    "CreditLimit": 1000,
+    "CreditLimit": 10000,
     "BankCode": "002"
   },
   {
@@ -36,7 +36,7 @@
     "CardPicture": "cardImages/card4.png",
     "IsCardBlocked": false,
     "IsDigitalCard": false,
-    "CreditLimit": 10000,
+    "CreditLimit": 7000,
     "BankCode": "004"
   },
   {
@@ -66,7 +66,7 @@
     "CardPicture": "cardImages/card7.png",
     "IsCardBlocked": false,
     "IsDigitalCard": true,
-    "CreditLimit": 100,
+    "CreditLimit": 10000,
     "BankCode": "004"
   },
   {
@@ -106,7 +106,7 @@
     "CardPicture": "cardImages/card11.png",
     "IsCardBlocked": false,
     "IsDigitalCard": true,
-    "CreditLimit": 8000,
+    "CreditLimit": 9000,
     "BankCode": "001"
   },
   {

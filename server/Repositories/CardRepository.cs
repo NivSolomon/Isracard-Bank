@@ -11,7 +11,7 @@ namespace server.Repositories
 {
     public class CardRepository : ICardRepository
     {
-        private readonly string _filePath = "C:\\Users\\Nivso\\Desktop\\Isracard-Project\\server\\Data\\CreditCards.json";
+        private readonly string _filePath = "Data/CreditCards.json";
         private List<CreditCard> _creditCards;
 
         public CardRepository()
