@@ -1,0 +1,23 @@
+{
+  "Users": [
+    {
+      "Id": "34a2037c-2077-4e0b-b861-c9e1ea03090d",
+      "Username": "admin",
+      "Email": "admin@example.com",
+      "Password": "$2a$10$6pUUjXqLzcF1Cs7bJiPZ2.xzCefHa1fx0Njple3ZbMG4t5iFBEzvu",
+      "UserName": null,
+      "NormalizedUserName": null,
+      "NormalizedEmail": null,
+      "EmailConfirmed": false,
+      "PasswordHash": null,
+      "SecurityStamp": "4cb65a0d-e789-4cb7-93f7-fc00bd8025b5",
+      "ConcurrencyStamp": "df8d4f1f-8671-4037-9402-6232fc3df655",
+      "PhoneNumber": null,
+      "PhoneNumberConfirmed": false,
+      "TwoFactorEnabled": false,
+      "LockoutEnd": null,
+      "LockoutEnabled": false,
+      "AccessFailedCount": 0
+    }
+  ]
+}

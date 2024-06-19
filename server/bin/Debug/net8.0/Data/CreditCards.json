@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "CardNumber": "1234567890123456",
+    "CardIssueDate": "2023-01-15T00:00:00",
+    "CardPicture": "cardImages/card1.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": true,
+    "CreditLimit": 22,
+    "BankCode": "001"
+  },
+  {
+    "Id": "0f83057f-2143-41cd-bfed-98fcdb4a6a1d",
+    "CardNumber": "2345678901234567",
+    "CardIssueDate": "2023-02-20T00:00:00",
+    "CardPicture": "cardImages/card2.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": false,
+    "CreditLimit": 1000,
+    "BankCode": "002"
+  },
+  {
+    "Id": "87f9740f-8095-4d9a-8f2a-8724cd19a795",
+    "CardNumber": "3456789012345678",
+    "CardIssueDate": "2023-03-25T00:00:00",
+    "CardPicture": "cardImages/card3.png",
+    "IsCardBlocked": true,
+    "IsDigitalCard": true,
+    "CreditLimit": 9500,
+    "BankCode": "003"
+  },
+  {
+    "Id": "874242e5-452b-4418-b98d-4a58f7be3b94",
+    "CardNumber": "4567890123456789",
+    "CardIssueDate": "2023-04-30T00:00:00",
+    "CardPicture": "cardImages/card4.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": false,
+    "CreditLimit": 10000,
+    "BankCode": "004"
+  },
+  {
+    "Id": "7f6d87a5-c20d-4da8-8a51-b5b44993bc0a",
+    "CardNumber": "5678901234567890",
+    "CardIssueDate": "2023-05-05T00:00:00",
+    "CardPicture": "cardImages/card5.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": true,
+    "CreditLimit": 100000,
+    "BankCode": "002"
+  },
+  {
+    "Id": "587afd0c-232b-4698-b0a3-014e95cdc196",
+    "CardNumber": "6789012345678901",
+    "CardIssueDate": "2023-06-10T00:00:00",
+    "CardPicture": "cardImages/card6.png",
+    "IsCardBlocked": true,
+    "IsDigitalCard": false,
+    "CreditLimit": 4500,
+    "BankCode": "003"
+  },
+  {
+    "Id": "1b0e3a92-1b90-4669-98eb-bc4fb673235d",
+    "CardNumber": "7890123456789012",
+    "CardIssueDate": "2023-07-15T00:00:00",
+    "CardPicture": "cardImages/card7.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": true,
+    "CreditLimit": 100,
+    "BankCode": "004"
+  },
+  {
+    "Id": "adc14874-e7e4-46d1-a4c7-f8ecb05e5bc3",
+    "CardNumber": "8901234567890123",
+    "CardIssueDate": "2023-08-20T00:00:00",
+    "CardPicture": "cardImages/card8.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": false,
+    "CreditLimit": 200,
+    "BankCode": "001"
+  },
+  {
+    "Id": "a2ea7b57-b697-419e-ab7b-0e87b7506a23",
+    "CardNumber": "9012345678901234",
+    "CardIssueDate": "2023-09-25T00:00:00",
+    "CardPicture": "cardImages/card9.png",
+    "IsCardBlocked": true,
+    "IsDigitalCard": true,
+    "CreditLimit": 4000,
+    "BankCode": "002"
+  },
+  {
+    "Id": "056d915d-ae0c-484a-ac1a-d7476b388325",
+    "CardNumber": "0123456789012345",
+    "CardIssueDate": "2023-10-30T00:00:00",
+    "CardPicture": "cardImages/card10.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": false,
+    "CreditLimit": 9000,
+    "BankCode": "004"
+  },
+  {
+    "Id": "85630776-eaf1-41f5-8ad9-0f3bcf8fb49a",
+    "CardNumber": "1123456789012345",
+    "CardIssueDate": "2023-11-05T00:00:00",
+    "CardPicture": "cardImages/card11.png",
+    "IsCardBlocked": false,
+    "IsDigitalCard": true,
+    "CreditLimit": 8000,
+    "BankCode": "001"
+  },
+  {
+    "Id": "0308c921-607a-4996-9f15-d52cb1639722",
+    "CardNumber": "2234567890123456",
+    "CardIssueDate": "2023-12-10T00:00:00",
+    "CardPicture": "cardImages/card12.png",
+    "IsCardBlocked": true,
+    "IsDigitalCard": false,
+    "CreditLimit": 1000,
+    "BankCode": "003"
+  }
+]

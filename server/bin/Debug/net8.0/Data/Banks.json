@@ -1,0 +1,27 @@
+[
+  {
+    "Code": "001",
+    "Name": "Bank of America",
+    "Description": "One of the largest banks in the United States, offering a wide range of financial services."
+  },
+  {
+    "Code": "002",
+    "Name": "Wells Fargo",
+    "Description": "A major American multinational financial services company headquartered in San Francisco, California."
+  },
+  {
+    "Code": "003",
+    "Name": "Chase Bank",
+    "Description": "The consumer and commercial banking subsidiary of JPMorgan Chase, one of the largest banking institutions in the United States."
+  },
+  {
+    "Code": "004",
+    "Name": "Citibank",
+    "Description": "The consumer division of financial services multinational Citigroup, known for its extensive global network."
+  },
+  {
+    "Code": "005",
+    "Name": "Goldman Sachs",
+    "Description": "A leading global investment banking, securities, and investment management firm."
+  }
+]
