@@ -12,27 +12,24 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-// builder.Services.AddSwaggerGen();
 builder.Services.AddMemoryCache();
+builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddSingleton<IBankRepository, BankRepository>();
 builder.Services.AddSingleton<ICardRepository, CardRepository>();
 builder.Services.AddSingleton<IUserRepository, UserRepository>();
-builder.Services.AddTransient<IUserService, UserService>();
 
-// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", builder =>
     {
         builder
                 .AllowCredentials()
-                .WithOrigins("http://localhost:5173") // Replace with your client origin URL
+                .WithOrigins("http://localhost:5173") 
                 .AllowAnyHeader()
                 .AllowAnyMethod();
     });
 });
 
-// JWT Authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -55,19 +52,11 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
-// Use CORS middleware
 app.UseCors("AllowSpecificOrigin");
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
-// if (app.Environment.IsDevelopment())
-// {
-//     app.UseSwagger();
-//     app.UseSwaggerUI();
-// }
-
 
 app.UseHttpsRedirection();
 
